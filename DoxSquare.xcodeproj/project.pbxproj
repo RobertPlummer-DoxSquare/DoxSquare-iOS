@@ -10,7 +10,6 @@
 		AC9BEECD25B3DD9200F8842F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BEECC25B3DD9200F8842F /* AppDelegate.swift */; };
 		AC9BEECF25B3DD9200F8842F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BEECE25B3DD9200F8842F /* SceneDelegate.swift */; };
 		AC9BEED125B3DD9200F8842F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BEED025B3DD9200F8842F /* ViewController.swift */; };
-		AC9BEED425B3DD9200F8842F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BEED225B3DD9200F8842F /* Main.storyboard */; };
 		AC9BEED625B3DD9600F8842F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9BEED525B3DD9600F8842F /* Assets.xcassets */; };
 		AC9BEED925B3DD9600F8842F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BEED725B3DD9600F8842F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		AC9BEECC25B3DD9200F8842F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9BEECE25B3DD9200F8842F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AC9BEED025B3DD9200F8842F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC9BEED325B3DD9200F8842F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC9BEED525B3DD9600F8842F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9BEED825B3DD9600F8842F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9BEEDA25B3DD9600F8842F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				AC9BEECC25B3DD9200F8842F /* AppDelegate.swift */,
 				AC9BEECE25B3DD9200F8842F /* SceneDelegate.swift */,
 				AC9BEED025B3DD9200F8842F /* ViewController.swift */,
-				AC9BEED225B3DD9200F8842F /* Main.storyboard */,
 				AC9BEED525B3DD9600F8842F /* Assets.xcassets */,
 				AC9BEED725B3DD9600F8842F /* LaunchScreen.storyboard */,
 				AC9BEEDA25B3DD9600F8842F /* Info.plist */,
@@ -126,7 +123,6 @@
 			files = (
 				AC9BEED925B3DD9600F8842F /* LaunchScreen.storyboard in Resources */,
 				AC9BEED625B3DD9600F8842F /* Assets.xcassets in Resources */,
-				AC9BEED425B3DD9200F8842F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +142,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC9BEED225B3DD9200F8842F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC9BEED325B3DD9200F8842F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC9BEED725B3DD9600F8842F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9398M3GXY;
 				INFOPLIST_FILE = DoxSquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.DxSquare.DoxSquare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9398M3GXY;
 				INFOPLIST_FILE = DoxSquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.DxSquare.DoxSquare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
